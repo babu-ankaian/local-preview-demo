@@ -72,7 +72,7 @@ export default function BasicTextFields() {
         href="/" 
         // target="_blank" 
         type="submit">
-          Send
+          Submit
       </Button><br/>
 
     </Box>
