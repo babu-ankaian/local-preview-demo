@@ -1,0 +1,34 @@
+{
+    "private": true,
+    "scripts": {
+        "setup": "node setup.js",
+        "dev": "next dev -p 9009",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@contentful/f36-components": "^4.43.0",
+        "@contentful/rich-text-react-renderer": "^15.0.0",
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@mui/icons-material": "^5.11.16",
+        "@mui/material": "^5.13.5",
+        "chalk": "^4.1.1",
+        "contentful": "^8.4.2",
+        "contentful-import": "^8.1.23",
+        "contentful-management": "^7.30.0",
+        "dayjs": "^1.10.6",
+        "eact": "^0.0.1-security",
+        "eslint-config-next": "^13.2.4",
+        "inquirer": "^8.1.2",
+        "next": "latest",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.3.1",
+        "postcss": "^8.3.5",
+        "prettier": "2.3.2",
+        "tailwindcss": "^2.2.4"
+    }
+}
